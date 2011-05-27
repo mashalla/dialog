@@ -1,27 +1,21 @@
 /*
  ---
- description: demo application
+ description: demo application for accessible dialog
+ 
  license: MIT-style
+ 
  authors:
- - Truman Leung
+ - Christian Merz
+ 
  requires:
  - core/1.3: '*'
  - more/1.2.4: Fx.Elements
- provides: Ascribe Dialog
- version: 0.3
+ 
+ provides: Accessible Dialog
+ 
+ version: 1.0
  ...
  */
- 
-// -------------------------------------------------------------------
-//
-// last edit: 2011 - 02 - 18
-//
-// author: Christian Merz
-//
-// instantiation of different dialogs
-//
-// --------------------------------------------------------------------
-
 window.addEvent('domready', function(){
 
     var modaldemo = new AscModalAlertConfirm();
