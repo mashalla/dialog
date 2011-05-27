@@ -1,7 +1,11 @@
 Accessible Dialog
 ===========
 
-This set of classes allows you to add in-browser popups, tooltips or dialogs (modal or non-modal) that can be animated to either fly or fade in. Tooltips can be targeted to point with an arrow to specific elements. These classes base on AscribeDialog and provide extended accessibility functionality.
+This set of classes allows you to add in-browser popups, tooltips or dialogs (modal or non-modal) that can be animated to either fly or fade in. 
+Tooltips can be targeted to point with an arrow to specific elements. These classes base on AscribeDialog and provide extended accessibility 
+functionality.
+
+![Screenshot](http://accessiblemootoolsdemo.iao.fraunhofer.de/img/Dialog.png)
 
 How to use
 ----------
