@@ -15,7 +15,8 @@
  
  version: 1.0
  ...
- */
+ 
+*/
 window.addEvent('domready', function(){
 
     var modaldemo = new AscModalAlertConfirm();
