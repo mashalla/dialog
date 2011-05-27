@@ -1,3 +1,17 @@
+/*
+ ---
+ description: demo application
+ license: MIT-style
+ authors:
+ - Truman Leung
+ requires:
+ - core/1.3: '*'
+ - more/1.2.4: Fx.Elements
+ provides: Ascribe Dialog
+ version: 0.3
+ ...
+ */
+ 
 // -------------------------------------------------------------------
 //
 // last edit: 2011 - 02 - 18
@@ -7,8 +21,6 @@
 // instantiation of different dialogs
 //
 // --------------------------------------------------------------------
-
-
 
 window.addEvent('domready', function(){
 

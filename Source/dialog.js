@@ -1,15 +1,4 @@
-// --- extended ----------- Start Edit --------------------------------
-//
-// last edit: 2011 - 02 - 16
-//
-// author: Christian Merz
-//
-// all changes are necessary for accessibility (except the show_Demo function)
-//
-// all changes are marked with the keyword 'extended' like this header
-// and a short description
-//
-// --- extended ----------- Start Edit --------------------------------
+
 
 /*
  ---
@@ -24,6 +13,19 @@
  version: 0.3
  ...
  */
+ 
+// --- extended ----------- Start Edit --------------------------------
+//
+// last edit: 2011 - 02 - 16
+//
+// author: Christian Merz
+//
+// all changes are necessary for accessibility (except the show_Demo function)
+//
+// all changes are marked with the keyword 'extended' like this header
+// and a short description
+//
+// --- extended ----------- Start Edit --------------------------------
 var AscDialog = new Class({
     Implements: [Options, Events],
     

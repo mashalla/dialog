@@ -1,7 +1,13 @@
 name: Accessible Dialog
 author: mashalla
-category: Widget
+category: Widgets
 tags: [dialog, tooltip, modal, window, alert, confirm]
 #docs: http://ascribedata.com/moo/dialog/
 demo: http://mashalla.github.com/dialog
 current: 1.0
+
+sources:
+  - "Source/dialog.js"
+  - "Source/demo.js"
+  - "Source/mootools-more.js"
+  - "Source/mootools-core.js"
