@@ -9,5 +9,3 @@ current: 1.0
 sources:
   - "Source/dialog.js"
   - "Source/demo.js"
-  - "Source/mootools-more.js"
-  - "Source/mootools-core.js"
