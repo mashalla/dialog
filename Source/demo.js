@@ -1,24 +1,21 @@
 /*
 ---
-description: demo application
-
+description: accessible dialog based on ascribe dialog
+ 
 license: MIT-style
-
+ 
 authors:
-- Alexander Duschek
-
+- Christian Merz
+ 
 requires:
-  - Core/Class.Extras
-  - Core/Element.Event
-  - Core/Selectors
-
-provides: [MooDropMenu, Element.MooDropMenu]
-
-accessibility enhancements: WAI ARIA specification (http://www.w3.org/TR/wai-aria-practices/#menu) is implemented, DropDown can be controlled completely by the keyboard.
-
+- core/1.3: '*'
+- more/1.2.4: Fx.Elements
+ 
+provides: Accessible Dialog
+ 
+version: 1.0
 ...
-	
- */
+*/
 window.addEvent('domready', function(){
 
     var modaldemo = new AscModalAlertConfirm();
