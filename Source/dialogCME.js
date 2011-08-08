@@ -1,15 +1,15 @@
 /*
- ---
- script: dialogCME.js
- description: ---
- license: MIT-style license
- authors:
- - Christian Merz
- requires:
- - core:1.3.2/Element.Event
- provides: [dialogCME]
- ...
- */
+---
+script: dialogCME.js
+description: ---
+license: MIT-style license
+authors:
+- Christian Merz
+requires:
+- core:1.3.2/Element.Event
+provides: [dialogCME]
+...
+*/
 var DialogCME = new Class({
     Implements: [Options, Events],
     
