@@ -4,7 +4,6 @@ category: Widgets
 tags: [dialog, tooltip, modal, window, alert, confirm]
 #docs: http://ascribedata.com/moo/dialog/
 demo: http://mashalla.github.com/dialog
-current: 1.1
 
 sources:
   - "Source/dialog.js"
