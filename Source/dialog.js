@@ -85,7 +85,7 @@ var DialogCME = new Class({
             }).inject(header);
             
             if (this.options.closeButton) {
-                var close = new Button({
+                var close = new DButton({
                     'classPrefix': this.options.classPrefix + 'Button',
                     'value': '  x  ',
                     'ariaLabel': 'Click to close',
@@ -102,7 +102,7 @@ var DialogCME = new Class({
             }
             
             if (this.options.submit.exists) {
-                var submit = new Button({
+                var submit = new DButton({
                     'classPrefix': this.options.classPrefix + 'Button',
                     'value': this.options.submit.value,
                     'clickFunction': this.options.submit.fn.bind(this)
@@ -110,7 +110,7 @@ var DialogCME = new Class({
             }
             
             if (this.options.cancel.exists) {
-                var cancel = new Button({
+                var cancel = new DButton({
                     'classPrefix': this.options.classPrefix + 'Button',
                     'value': this.options.cancel.value,
                     'clickFunction': this.options.cancel.fn.bind(this)
@@ -178,7 +178,7 @@ var DialogCME = new Class({
     }
 });
 
-var Button = new Class({
+var DButton = new Class({
     Implements: [Options, Events],
     
     options: {

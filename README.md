@@ -5,7 +5,7 @@ This set of classes allows you to add in-browser popups, tooltips or dialogs (mo
 Tooltips can be targeted to point with an arrow to specific elements. These classes base on AscribeDialog and provide extended accessibility 
 functionality.
 
-![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/img/Dialog.png)
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Dialog.png)
 
 How to use
 ----------

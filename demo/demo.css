@@ -1,7 +1,80 @@
+/* common settings 314 */
+
 body {
-    font-family: "Arial";
-    font-size: 0.8em;
+	font-family: "Arial";
+	font-size: 0.8em;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	background-image: url(img/background.gif);
+	background-repeat: repeat-x;
+	padding: 10px;
 }
+hr {
+	border: 0px solid #aaaaaa;
+	background-color: #aaaaaa;
+	height: 1px;
+}
+a:link {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:visited {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:focus {
+	color: #cc0000;
+	text-decoration: none;
+}
+a:hover {
+	color: #cc0000;
+	text-decoration: underline;
+}
+a:active {
+	color: #cc0000;
+	text-decoration: none;
+}
+h1 {
+	color: #111111;
+	font-size: 2em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+h2 {
+	color: #111111;
+	font-size: 1.6em;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+h3 {
+	color: #333333;
+}
+.youtube {
+	border: 1px solid #aaaaaa;
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+div.sa_demo_contentScreen {
+	background-color: #ffffff;
+	margin: 0 5px 1em 0;
+	padding: 0px 8px 8px 8px;
+	margin: 10px 40px 40px 5px;
+	width: 580px;
+}
+div.sa_demo_headerScreen {
+	border: #e6e6e6 2px double;
+	background-color: #ffffff;
+	padding: 10px 10px 0px 10px;
+	height: 60px;
+	margin: 70px 0 0px 0;
+	width: 580px;
+}
+/* end common settings 314 */
 
 .MooAccessDialogButton {
     border: 1px solid #aaaaaa;
@@ -14,7 +87,7 @@ body {
     -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    background-image: url(../../img/verlauf.png);
+    background-image: url(img/verlauf.png);
     background-repeat: repeat-x;
     background-position: center center;
     background-color: #efefef;
@@ -28,30 +101,26 @@ body {
     outline: none;
     background-color: #ffffff;
     border: 2px dotted #cc0000;
-	margin: 0px 5px 0px 5px;
+    margin: 4px;
 }
 
-.MooAccessDialogButton:focus::-moz-focus-inner {
-    border: 0;
-}
-
+/*
+ .MooAccessDialogButton:focus::-moz-focus-inner {
+ border: 0;
+ }
+ */
 .MooAccessDialogButton.close {
-	padding:0px;
+    padding: 0px;
     position: absolute;
     right: 5px;
-    top: 21px;
-    margin: 0px;
-    margin-top: -2px;
+    top: 20px;
     font-weight: bold;
 }
 
 .MooAccessDialogButton.close:focus {
-    position: absolute;
-    right: 5px;
-    margin: -2px;
-    margin-top: -2px;
-	margin-right:0px;
-    font-weight: bold;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px dotted #cc0000;
 }
 
 hr.MooAccessDialog {
@@ -72,7 +141,7 @@ hr.MooAccessDialog {
 .MooAccessDialogHeader {
     margin-top: 15px;
     background-color: #efefef;
-    padding: 5px;
+    padding: 10px;
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #aaaaaa;
 }
@@ -99,6 +168,7 @@ hr.MooAccessDialog {
     top: 50%;
     left: 50%;
     width: 300px;
+    border: 2px solid #666666;
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
     border-radius: 8px 8px 8px 8px;
