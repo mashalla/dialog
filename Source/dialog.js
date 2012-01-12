@@ -1,6 +1,6 @@
 /*
 ---
-script: dialogCME.js
+script: dialog.js
 description: ---
 license: MIT-style license
 authors:

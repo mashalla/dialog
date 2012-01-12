@@ -1,6 +1,6 @@
 /*
 ---
-script: dialogCME.js
+script: dialog.js
 description: ---
 license: MIT-style license
 authors:
@@ -38,5 +38,4 @@ window.addEvent('domready', function(){
         dialogCme.show();
     }
 .bind(this));
-    
 });
