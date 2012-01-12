@@ -9,7 +9,6 @@ How to use
 ----------
 
 window.addEvent('domready', function(){
-
     var dialogCme = new DialogCME({
 		'alert':false, // Is it an alert dialog?
 		'closeButton':true, // Do you need a closeButton?
@@ -34,6 +33,5 @@ window.addEvent('domready', function(){
     $('dialogDemo').addEvent('click', function(e){
         e = new Event(e).stop();
         dialogCme.show();
-    }
-.bind(this));
+    }.bind(this));
 });
