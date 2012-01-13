@@ -4,6 +4,7 @@ category: Widgets
 tags: [dialog, tooltip, modal, window, alert, confirm]
 #docs: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
 demo: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
+current: 1.3
 sources:
   - "Source/dialog.js"
   - "Source/demo.js"
